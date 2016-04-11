@@ -1,9 +1,8 @@
 class Ucto < Formula
   desc "Unicode tokenizer"
   homepage "http://ilk.uvt.nl/ucto/"
-  url "http://software.ticc.uvt.nl/ucto-0.8.0.tar.gz"
-  sha256 "d3de9886aac95b5eaa48c45a6f8e69e3bb0c350f1d827987e802f4a2ccbcd0bc"
-  revision 1
+  url "https://github.com/LanguageMachines/ucto/releases/download/v0.8.4/ucto-0.8.4.tar.gz"
+  sha256 "f6153def4907cff14ed906defa94343c29d66cfbb0e3024f302afb37e8e1f3d7"
 
   bottle do
     sha256 "d1cdf45fc49ed34d8c5a8e6e860a3248421c760a9c8895645cbbc4b4fbb3a1e7" => :el_capitan
